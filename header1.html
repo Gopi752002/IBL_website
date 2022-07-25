@@ -1,0 +1,126 @@
+
+<html >
+<head>
+    
+    <title>header/menu</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        /*header{
+            background-color: lightgreen;
+            width: 70%;
+            padding: 30px;
+            
+        }*/
+        .demo{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+.demo ul  li{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    float: left;
+    background-color: #24af15;
+    
+}
+.demo ul li a{
+    padding:20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0%;
+    width: 130px;
+    color: white;
+    text-align: center;
+    
+}
+.demo ul li ul a{
+    
+    padding: 20px;
+}
+.demo  li:hover {
+    background-color: #04351c;
+}
+.demo ul li ul{
+    position:absolute;
+    display: none;
+              
+}
+
+.demo ul li:hover ul{
+    display: block;
+    
+}
+.demo ul ul ul li{
+    position: relative;
+    top: -80px;
+    left: 90px;
+}
+
+.demo ul  ul  ul li a{
+                display: none ;
+                padding-left: 6px;
+                text-decoration: none;
+                
+                
+                
+}
+.demo ul ul li a{
+    width: 90px;
+    
+}
+.demo ul ul li:hover ul a{
+                display: block;
+                
+                
+                
+
+}
+                
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="demo">
+            <ul>
+                <li><a href="#">Main item 1</a></li>
+                <li><a href="#">Main item 2</a>
+                    <ul>
+                        <li><a href="#">sub item 1</a>
+                        
+                        </li>
+                        <li><a href="#">sub item 2</a></li>
+                        <li><a href="#">sub item 3</a>
+                            <ul>
+                                <li><a href="#">&&&</a></li>
+                                <li><a href="#">@@@</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>              
+                <li><a href="#">Main item 3</a>
+                    <ul>
+                        <li><a href="#">item </a></li>
+                        <li><a href="#">item</a></li>
+                        <li><a href="#">item</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Main item 4</a>
+                <ul>
+                    <li><a href="#">sub menu a</a></li>
+                    <li><a href="#">sub menu b</a></li>
+                    <li><a href="#">sub menu c</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Main item 5</a></li>
+            </ul>
+        </div>
+            </header>
+    
+</body>
+</html>

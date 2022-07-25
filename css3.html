@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>stud menu</title>
+        <style type="text/css">
+            body{
+                margin: 0;
+            }
+            ul{
+                list-style: none;
+                padding: 10px;
+                margin: 0;
+            }
+            ul li {
+                
+                display:inline-block;
+                vertical-align: top;
+                position: relative;
+
+            }
+            ul li a{
+                background-color:yellow;
+                display: inline-block;
+                border: 4px solid ;
+
+                text-decoration: none;
+                padding: 20px;
+                color: blue;
+                margin: 5;
+               
+            
+            }
+            ul li ul a{
+                background-color:green;
+                padding: 20px;
+            }
+            ul li ul{
+                display: none;
+                position: absolute;
+            }
+            ul li:hover ul{
+                display: block;
+            }
+            ul  ul  ul li a{
+                display: none ;
+                position: relative;
+                border: 4px solid;
+                text-decoration: none;
+                padding: 20px;
+                margin: 3;
+                left: 70px;
+                
+            }
+            ul ul li:hover ul a{
+                display: block;
+            }
+            ul li:hover  a{
+                color:black;
+            }
+
+        </style>
+        <body>
+            <ul>
+                <li><a href="#">Name</a>
+                <ul>
+                    <li><a href="#">siya</a>
+                    <ul>
+                        <li><a href="#">maths</a></li>
+                        <li><a href="#">hindi</a></li>
+                        <li><a href="#">computer</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">neha</a></li>
+                    <li><a href="#">mira</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Subject</a>
+                <ul>
+                    <li><a href="#">php</a>
+                      
+                    <ul>
+                        <li><a href="#">php1</a></li>
+                        <li><a href="#">php2</a></li>
+                        <li><a href="#">ph3</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">seo</a>
+                        <ul>
+                            <li><a href="#">seo1</a></li>
+                            <li><a href="#">seo2</a></li>
+                            <li><a href="#">seo3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">java</a>
+                        <ul>
+                            <li><a href="#">java1</a></li>
+                            <li><a href="#">java2</a></li>
+                            <li><a href="#">java3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="#">Email</a>
+                <ul>
+                    <li><a href="#">siya@gmail.com</a> </li>
+                    <li><a href="#">neha@gmail.com</a> </li>
+                    <li><a href="#">mira@gmail.com</a> </li>
+                </ul>
+                </li>
+            </ul>    
+                    
+        </body>
+    </head>
+</html>
